@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Satyam Gupta — Python Django Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-code">
+        <span class="loader-bracket">&lt;</span>
+        <span class="loader-name">SG</span>
+        <span class="loader-bracket">/&gt;</span>
+      </div>
+      <div class="loader-bar"><div class="loader-progress"></div></div>
+      <p class="loader-text">Initializing portfolio...</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;<span>SG</span>/&gt;</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-layout">
+      <!-- Left: Text Content -->
+      <div class="hero-content">
+        <div class="hero-terminal">
+          <div class="terminal-bar">
+            <span class="t-dot red"></span>
+            <span class="t-dot yellow"></span>
+            <span class="t-dot green"></span>
+            <span class="t-title">portfolio.py</span>
+          </div>
+          <div class="terminal-body">
+            <p class="t-line"><span class="t-comment"># Hello, World! I'm</span></p>
+            <p class="t-line"><span class="t-keyword">def</span> <span class="t-fn">introduce</span>():</p>
+            <p class="t-line indent">name <span class="t-op">=</span> <span class="t-str">"<span id="typed-name"></span>"</span><span class="t-cursor">|</span></p>
+          </div>
+        </div>
+        <h1 class="hero-name">Satyam Gupta</h1>
+        <p class="hero-role">
+         
+          <span class="role-tag">Aspiring Software Engineer </span>
+        </p>
+        <p class="hero-tagline">Building robust web applications from backend logic to pixel-perfect frontends.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/codewith-satyam" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/Satyam Gupta" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:satyam6453@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: Photo -->
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring"></div>
+        <div class="hero-photo-ring ring-2"></div>
+        <div class="hero-photo-frame">
+          <img src="satyam.png" alt="Satyam Gupta" class="hero-photo" />
+        </div>
+        <div class="hero-photo-badge">
+          <i class="fas fa-code"></i> Available for Internship
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label reveal">About Me</div>
+      <h2 class="section-title reveal">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="av-card">
+            <div class="av-avatar">
+              <img src="satyam.png" alt="Satyam Gupta" class="av-photo" />
+              <div class="av-ring"></div>
+            </div>
+            <div class="av-stats">
+              <div class="stat"><span class="stat-n">2+</span><span class="stat-l">Projects</span></div>
+              <div class="stat"><span class="stat-n">7+</span><span class="stat-l">Certificates</span></div>
+              <div class="stat"><span class="stat-n">∞</span><span class="stat-l">Curiosity</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>I am a 2nd-year B.Tech Computer Science and Engineering student at SR Institution of Management and Technology Lucknow, with a completed 
+            Diploma in Computer Science Engineering. I am passionate about software development, problem-solving, and building practical applications.
+             I am actively seeking <strong>Software Development Internship</strong> opportunities to gain industry experience and grow as a Software Engineer.</p>
+           
+             
+          <div class="strengths-list">
+            <div class="strength-item"><i class="fas fa-bolt"></i> Self-motivated and eager to learn new technologies</div>
+            <div class="strength-item"><i class="fas fa-eye"></i>currently learning DSA in C++</div>
+            <div class="strength-item"><i class="fas fa-brain"></i> Quick learner with a passion for new technologies</div>
+          </div>
+          <div class="about-info-grid">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Lucknow, Uttar Pradesh, India</span></div>
+            <div class="info-item"><i class="fas fa-phone"></i><span>+91 9936841469</span></div>
+            <div class="info-item"><i class="fas fa-envelope"></i><span>satyam6453@gmail.com</span></div>
+            <div class="info-item"><i class="fas fa-briefcase"></i><span>Open to Internships</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-label reveal">Technical Skills</div>
+      <h2 class="section-title reveal">What I Work With</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fab fa-python"></i></div>
+          <h3>programming languages</h3>
+          <div class="skill-tags">
+            <span class="tag tag-primary">Python</span>
+            <span class="tag tag-primary">C</span>
+            <span class="tag tag-primary">C++</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-w="80"></div></div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <h3>Database</h3>
+          <div class="skill-tags">
+            <span class="tag tag-secondary">MySQL</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-w="70"></div></div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="tag tag-accent">HTML</span>
+            <span class="tag tag-accent">CSS</span>
+            <span class="tag tag-accent">Bootstrap</span>
+            <span class="tag tag-accent">JavaScript</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-w="75"></div></div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Data Libraries</h3>
+          <div class="skill-tags">
+            <span class="tag tag-violet">NumPy</span>
+            <span class="tag tag-violet">Pandas</span>
+            <span class="tag tag-violet">Matplotlib</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-w="65"></div></div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span class="tag tag-warm">Git</span>
+            <span class="tag tag-warm">GitHub</span>
+            <span class="tag tag-warm">Excel</span>
+            <span class="tag tag-warm">VS-code</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-w="72"></div></div>
+        </div>
+        <div class="skill-card reveal">
+          
+          <h3>framework</h3>
+          <div class="skill-tags">
+            <span class="tag tag-warm">Django</span>
+            
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-w="72"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label reveal">My Work</div>
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-newspaper"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/codewith-satyam/News-portal" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">News Portal</h3>
+          <p class="project-stack">Python · Django · MySQL · HTML · CSS · Bootstrap</p>
+          <p class="project-desc">A fully functional full-stack news portal featuring dynamic content management, article categorization, and a clean, reader-friendly interface. Built end-to-end with Django on the backend and a responsive Bootstrap frontend.</p>
+          <div class="project-tags">
+            <span class="ptag">Full Stack</span>
+            <span class="ptag">Django</span>
+            <span class="ptag">MySQL</span>
+          </div>
+        </div>
+
+
+
+
+
+<!--project 2-->
+        
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-calendar-check"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/codewith-satyam" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Event Management System</h3>
+          <p class="project-stack">Python · Django · MySQL · HTML · CSS · Bootstrap</p>
+          <p class="project-desc">A comprehensive event management platform supporting event listings, sports tent bookings, gallery management, and a contact module. Designed for seamless user interaction with an intuitive booking workflow.</p>
+          <div class="project-tags">
+            <span class="ptag">Full Stack</span>
+            <span class="ptag">Booking System</span>
+            <span class="ptag">Django</span>
+          </div>
+        </div>
+<!--project 3-->
+<div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-calendar-check"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/codewith-satyam/Smart-Attendance-system-AI-ML-project" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Smart Attendence System </h3>
+          <p class="project-stack">Python · opencv · AiMl · .txt-file</p>
+          <p class="project-desc">Smart Attendance System
+Developed a face recognition-based attendance system using Python, AI/ML, and OpenCV.
+Automatically detects and recognizes registered faces through a webcam.
+Marks attendance automatically based on facial recognition.
+Stores attendance records in a `.txt` file for easy tracking and management.</p>
+          <div class="project-tags">
+            <span class="ptag">webcam based</span>
+            <span class="ptag">.txt file</span>
+            <span class="ptag">Data save</span>
+          </div>
+        </div>
+
+
+
+
+ <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-newspaper"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/codewith-satyam/Everyday-Calculator" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Calculator</h3>
+          <p class="project-stack"> HTML · CSS · Javascript</p>
+          <p class="project-desc">Developed a responsive calculator using HTML, CSS, and JavaScript.Performs basic arithmetic operations
+             like addition, subtraction, multiplication, and division.Includes a history feature to display previously performed calculations.
+
+Provides a simple, user-friendly interface with interactive functionality.</p>
+          <div class="project-tags">
+            <span class="ptag">history</span>
+            <span class="ptag">basic operations</span>
+            <span class="ptag">+,-,*,/</span>
+          </div>
+        </div>
+<!--4-->
+   <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-calendar-check"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/codewith-satyam/Amazon-Clone" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Amazon Clone </h3>
+          <p class="project-stack">HTML · CSS · Javascript/p>
+          <p class="project-desc">Developed an Amazon-inspired homepage using HTML and CSS.
+
+Designed a navigation bar, search bar, product categories, and banners.
+
+Created a clean and attractive layout similar to Amazon's homepage.
+
+Focused on responsive design and user-friendly interface. </p>
+          <div class="project-tags">
+         
+          </div>
+        </div>
+
+
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-newspaper"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/codewith-satyam/News-portal" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">AI CHATBOT</h3>
+          <p class="project-stack">· API · HTML · CSS · JavaScript</p>
+          <p class="project-desc">Developed an interactive AI chatbot using HTML, CSS, and JavaScript.
+
+Provides a user-friendly chat interface for real-time conversations.
+
+Allows users to ask questions and receive AI-generated responses.
+
+Designed with a clean, responsive UI for a smooth user experience..</p>
+          <div class="project-tags">
+            <span class="ptag">Full Stack</span>
+            <span class="ptag">Django</span>
+            <span class="ptag">MySQL</span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Education -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-label reveal">Academic Background</div>
+      <h2 class="section-title reveal">Education</h2>
+      <div class="timeline">
+
+<div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-year">2026 – 2029</span>
+            <h3>Btech in Computer Science Engineering</h3>
+            <p class="tl-inst">SR Institution of Management and Technology Lucknow</p>
+            <p class="tl-desc">Currently am pursuing B.tech in Computer Science & engineering at SRIMT Lucknow </p>
+          </div>
+        </div>
+
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-year">2023 – 2026</span>
+            <h3>Diploma in Computer Science Engineering</h3>
+            <p class="tl-inst">Govt. Polytechnic, Aadampur Tarabganj, Gonda</p>
+            <p class="tl-desc">Completed a Diploma in Computer Science with practical experience in software development, web technologies,computer network and project-based learning. </p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-year">2023</span>
+            <h3>Intermediate (Class XII)</h3>
+            <p class="tl-inst">Rasin School, Maharajganj, Uttar Pradesh</p>
+            <p class="tl-desc">Completed intermediate education, building foundational knowledge prior to specializing in computer science.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-year">2021</span>
+            <h3>High School (Class X)</h3>
+            <p class="tl-inst">PG Senior Secondary School, Kaptanganj, Uttar Pradesh</p>
+            <p class="tl-desc">Completed secondary education with strong academics, laying the groundwork for a career in technology.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fresher Notice -->
+  <section id="fresher" class="section fresher-section">
+    <div class="container">
+      <div class="fresher-card reveal">
+        <div class="fresher-photo-col">
+          <img src="satyam.png" alt="Satyam Gupta" class="fresher-photo" />
+        </div>
+        <div class="fresher-content">
+          <div class="fresher-icon-row"><i class="fas fa-rocket fresher-rocket"></i><span class="fresher-eyebrow">Fresher · Open to Work</span></div>
+          <h2>Actively Seeking Opportunities</h2>
+          <p>As a fresher with hands-on project experience, strong fundamentals in Python & Django, and a drive to learn — I'm ready to contribute from day one. Open to internships, trainee roles, and junior developer positions.</p>
+          <div class="fresher-highlights">
+            <div class="fh-item"><i class="fas fa-check-circle"></i> Real-world project experience</div>
+            <div class="fh-item"><i class="fas fa-check-circle"></i> 7+ industry certifications</div>
+            <div class="fh-item"><i class="fas fa-check-circle"></i> Fast learner & self-motivated</div>
+            <div class="fh-item"><i class="fas fa-check-circle"></i> Available for immediate joining</div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="section section-alt">
+    <div class="container">
+      <div class="section-label reveal">Credentials</div>
+      <h2 class="section-title reveal">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-code"></i></div>
+          <div class="cert-body"><h3>Web Development Training</h3><p>Summer Training — Techpile Technology Pvt Ltd, Lucknow</p></div>
+          <div class="cert-badge">Verified</div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-brain"></i></div>
+          <div class="cert-body"><h3>Foundation of Artificial Intelligence</h3><p>Winter Training — NIELIT, Gorakhpur (2026)</p></div>
+          <div class="cert-badge">Verified</div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="cert-body"><h3>Cybersecurity Analyst Job Simulation</h3><p>Tata Forage Virtual Experience Program</p></div>
+          <div class="cert-badge">Forage</div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-robot"></i></div>
+          <div class="cert-body"><h3>GenAI Powered Data Analyst</h3><p>Tata Forage Virtual Experience Program</p></div>
+          <div class="cert-badge">Forage</div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-chart-bar"></i></div>
+          <div class="cert-body"><h3>Data Visualization</h3><p>Tata Forage Virtual Experience Program</p></div>
+          <div class="cert-badge">Forage</div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-search-dollar"></i></div>
+          <div class="cert-body"><h3>Data Analytics Job Simulation</h3><p>Deloitte Virtual Experience Program</p></div>
+          <div class="cert-badge">Deloitte</div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-cogs"></i></div>
+          <div class="cert-body"><h3>Robotic Process Automation</h3><p>NIELIT, Gorakhpur</p></div>
+          <div class="cert-badge">Verified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-label reveal">Get in Touch</div>
+      <h2 class="section-title reveal">Contact Me</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <p class="contact-intro">I'm open to internship opportunities, collaborations, and conversations about technology. Drop a message and I'll get back to you!</p>
+          <div class="contact-links">
+            <a href="mailto:satyam6453@gmail.com" class="clink">
+              <div class="clink-icon"><i class="fas fa-envelope"></i></div>
+              <div class="clink-text"><span class="clink-label">Email</span><span class="clink-val">satyam6453@gmail.com</span></div>
+            </a>
+            <a href="tel:+919936841469" class="clink">
+              <div class="clink-icon"><i class="fas fa-phone"></i></div>
+              <div class="clink-text"><span class="clink-label">Phone</span><span class="clink-val">+91 9936841469</span></div>
+            </a>
+            <a href="https://github.com/codewith-satyam" target="_blank" rel="noopener" class="clink">
+              <div class="clink-icon"><i class="fab fa-github"></i></div>
+              <div class="clink-text"><span class="clink-label">GitHub</span><span class="clink-val">codewith-satyam</span></div>
+            </a>
+            <a href="https://linkedin.com/in/Satyam Gupta" target="_blank" rel="noopener" class="clink">
+              <div class="clink-icon"><i class="fab fa-linkedin"></i></div>
+              <div class="clink-text"><span class="clink-label">LinkedIn</span><span class="clink-val">Satyam Gupta</span></div>
+            </a>
+            <div class="clink">
+              <div class="clink-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="clink-text"><span class="clink-label">Location</span><span class="clink-val">Maharajganj, Uttar Pradesh, India</span></div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" placeholder="John Doe" required/>
+            </div>
+            <div class="form-group">
+              <label for="femail">Your Email</label>
+              <input type="email" id="femail" placeholder="john@example.com" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" placeholder="Internship Opportunity" required/>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-w">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="footer-logo">&lt;<span>SG</span>/&gt;</p>
+      <p class="footer-copy">Designed & built by Satyam Gupta · 2026</p>
+      <p class="footer-sub">Python · Django · Full Stack Development</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
